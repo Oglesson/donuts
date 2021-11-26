@@ -1,10 +1,8 @@
-# Getting Started with Create React App
+# Donuts
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Seems to be a lot like noughts and crosses/tic tac toe. Because it is. With Donuts. Just for Homer Simpson.
 
-## Available Scripts
-
-In the project directory, you can run:
+## Getting Started
 
 ### `npm start`
 
@@ -14,10 +12,18 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
+### Prerequisites
+
+A modern browser, node/npm via command line/bash
+
+## Testing
+
 ### `npm test`
 
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+## Deployment
 
 ### `npm run build`
 
@@ -29,6 +35,8 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
+## Changing build and config
+
 ### `npm run eject`
 
 **Note: this is a one-way operation. Once you `eject`, you can’t go back!**
@@ -39,7 +47,24 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+## Built With
+
+- [Create React App](https://github.com/facebook/create-react-app)
+
+## Author
+
+- **Sophie Oglesson** - _Initial work_ - [Oglesson](https://github.com/Oglesson)
+
+## Credits
+
+- **Sophie Oglesson** - _Initial work_ - [Oglesson](https://github.com/Oglesson)
+- **Sam Oglesson** - Tea making and moral support
+
+## License
+
+This project is licensed under the ISC License - see the [LICENSE.md](LICENSE.md) file for details
+
+## Learn More About Create React App
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
@@ -61,10 +86,16 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/m
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
+## The task
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Task description here
 
-### `npm run build` fails to minify
+## Sophie's notes regarding the task
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+These to outline why I made some of the decisions I did. It's important to note that often I feel a webapp is never fully complete and there is always something more to do but also say that I did not want to spend days doing this exercise but enough for proof that I have the skills required, hence I'll be noting things about priority here!
+
+- Removed reportWebVitals that comes as default create-react-app. Analytics are important for insitest into user experience, but decided to trim it in this case for leaness and as something else to 'manage'.
+
+- Service workers are opt-in and I didn't add them this time. A simple game like those shouldn't really be handling a lot of requests and for leaness, I've left this out.
+
+-
