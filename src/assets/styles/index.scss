@@ -1,0 +1,7 @@
+@import 'variables';
+@import 'app';
+
+body {
+	background-color: $background;
+	color: $font-color;
+}

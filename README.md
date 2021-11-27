@@ -57,7 +57,7 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 
 ## Credits
 
-- **Sophie Oglesson** - _Initial work_ - [Oglesson](https://github.com/Oglesson)
+- **Jess P Designs** - donut SVGs - [Jess P Designs Etsy Shop](https://www.etsy.com/uk/shop/JessPDesign)
 - **Sam Oglesson** - Tea making and moral support
 
 ## License
@@ -98,4 +98,4 @@ These to outline why I made some of the decisions I did. It's important to note 
 
 - Service workers are opt-in and I didn't add them this time. A simple game like those shouldn't really be handling a lot of requests and for leaness, I've left this out.
 
--
+- I had a quick look at the react-testing-library but ultimately decided to uses the enzyme library as it's the one I'm familar with and the one I could do the fastest!
